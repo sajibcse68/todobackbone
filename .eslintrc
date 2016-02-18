@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    // Overrides of the Airbnb style guide
+    "id-length": 0,
+    "react/sort-comp": [2, {
+      order: [
+        "lifecycle",
+        "everything-else",
+        "render"
+      ]
+    }],
+    "comma-dangle": [2, "never"],
+    "jsx-quotes": [2, "prefer-single"]
+  }
+}
